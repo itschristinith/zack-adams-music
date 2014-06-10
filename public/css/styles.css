@@ -1,0 +1,78 @@
+/*HTML Tags*/
+html { 
+  background: url(../img/za01.png) no-repeat center center fixed; 
+ background-color: rgba(33, 46, 48, 100);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+margin: 0;
+font-family: arial;
+color: white;
+}
+
+/*Main Container*/
+#mainContainer {
+width: 960px;
+height: 100%;
+margin:0 auto 0 auto;
+text-align: left;
+font-size: 24;
+}
+
+/*Header Container*/
+
+#header {
+width: 960px;
+height: 100px;
+text-align: center;
+font-size: 24;
+
+}
+
+#logo{
+/*position: relative;*/
+/*width:100px;*/
+/*height:100px;*/
+background-image: url(../img/pool.jpeg);
+background-repeat: no-repeat;
+}
+
+#buttons{
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 75px;
+
+}
+#logo:hover{
+
+}
+
+#nav{
+position: relative;
+text-align: left;
+font-size: 18;
+
+}
+/*Body Container*/
+#body_content {
+/*width: 500px;*/
+text-align: center;
+
+}
+/*Sidebar Container*/
+
+/*Footer Container*/
+#footer{
+	/*background-color: white;*/
+	width: 960px;
+	height:100px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-size: 18;
+}
