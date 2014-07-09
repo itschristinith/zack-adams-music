@@ -21,7 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    background: url(../img/za01.png) no-repeat center center fixed; 
+    background: url(../img/zabg.png) no-repeat center center fixed; 
     background-color: rgba(33, 46, 48, 100);
 }
 
@@ -101,7 +101,7 @@ textarea {
 
 body {
 margin: 0;
-font-family: "Letter Gothic Std";
+font-family: Times New Roman;
 color: white;
 }
 
@@ -118,15 +118,16 @@ font-size: 24;
 float: left;
 width: 960px;
 height: 100%;
-background-color: rgba(33, 46, 48, 100);
+/*background-color: rgba(33, 46, 48, 100);*/
 /*margin:0 auto 0 auto;*/
-margin: 100px 100px;
+margin: 50px 100px;
 text-align: left;
-font-size: 14;
-font-style: bold;
-color: red;
+font-size: 16;
+/*font-style: bold;*/
+color: #ef7145;
 
 }
+
 
 #right{
 float: right;
@@ -158,9 +159,8 @@ text-align: center;
 #about{
 
     height: 100%;
-    color: red;
+    color: #ef7145;
     font-size: 20px;
-
 }
 
 #buttons{
@@ -317,11 +317,12 @@ text-align: center;
     }
 
     a,
+    
     a:visited {
         text-decoration: underline;
     }
 
-    a[href]:after {
+    a:after {
         content: " (" attr(href) ")";
     }
 
