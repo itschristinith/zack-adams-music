@@ -32,6 +32,10 @@ app.get("/about", function(request, response){
 	response.render('about');
 });
 
+app.get("/music", function(request, response){
+	response.render('music');
+});
+
 // Start the server
 app.listen(process.env.PORT || 3000);
 console.log('Express started on port 3000');
