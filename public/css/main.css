@@ -22,6 +22,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     background: url(../img/zabg.png) no-repeat center center fixed; 
+    background-size: 100%;
     background-color: rgba(33, 46, 48, 100);
 }
 
@@ -132,10 +133,10 @@ color: #ef7145;
 #right{
 float: right;
 clear: right;
-width: 480px;
-height: 100%;
+width: 100;
+height: 100;
 /*margin:0 auto 0 auto;*/
-margin: 0px 480px;
+margin: 50px 650px;
 text-align: left;
 font-size: 18;
 /*font-style: italic;*/
@@ -145,7 +146,7 @@ font-size: 18;
 /*Header Container*/
 #header {
 width: 960px;
-height: 100px;
+height: 50px;
 text-align: center;
 font-size: 24;
 }
@@ -168,10 +169,18 @@ text-align: center;
     position: relative;
     width: 100px;
     height: 75px;
-
+    margin: 25px 50px;
 }
 
+#leftButton{
 
+}
+a
+{
+   color:#ef7145;
+   text-decoration: none; 
+   background-color: none;
+}
 
 
 
