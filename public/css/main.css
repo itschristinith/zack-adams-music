@@ -20,7 +20,7 @@ textarea {
 
 html {
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.8;
     background: url(../img/zabg.png) no-repeat center center fixed; 
     background-size: 100%;
     background-color: rgba(33, 46, 48, 100);
@@ -101,80 +101,81 @@ textarea {
    ========================================================================== */
 
 body {
-margin: 0;
-font-family: Times New Roman;
-color: white;
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
 }
 
 /*Main Container*/
 #mainContainer {
-width: 480px;
-height: 100%;
-margin:0 auto 0 auto;
-text-align: left;
-font-size: 24;
-}
-
-.left{
-float: left;
-width: 960px;
-height: 100%;
-/*background-color: rgba(33, 46, 48, 100);*/
-/*margin:0 auto 0 auto;*/
-margin: 50px 100px;
-text-align: left;
-font-size: 16;
-/*font-style: bold;*/
-color: #ef7145;
-
-}
-
-
-#right{
-float: right;
-clear: right;
-width: 100;
-height: 100;
-/*margin:0 auto 0 auto;*/
-margin: 50px 650px;
-text-align: left;
-font-size: 18;
-/*font-style: italic;*/
-
+    width: 960px;
+    height: 100%;
+    margin:0 auto 0 auto;
+    text-align: left;
+    font-size: 24;
 }
 
 /*Header Container*/
 #header {
-width: 960px;
-height: 50px;
-text-align: center;
-font-size: 24;
+    width: 960px;
+    height: 50px;
+    text-align: center;
+    font-size: 24;
 }
 
 /*Body Container*/
 #body_content {
-/*width: 500px;*/
-text-align: center;
+    /*text-align: center;*/
+    font-size: 16px;
 }
 
+/*About Container*/
 #about{
-
     height: 100%;
-    color: #ef7145;
-    font-size: 20px;
+    width: 800px;
+    font-size: 14px;
 }
 
-#buttons{
+.buttonContainer{
+    position: fixed;
+    left: 480px;
+    width: 25%;
+    height: 90%;
+}
+
+.buttons{
     display: block;
-    position: relative;
-    width: 100px;
     height: 75px;
     margin: 25px 50px;
 }
 
-#leftButton{
-
+.soundCloud{
+    /*text-align: center;*/
+    width: 30%;
+    height: 480px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
 }
+.left{
+    width: 480px;
+    height: 100%;
+    position: absolute;
+    top: 25px;
+    left: 35%;
+    line-height: 1.2;
+}
+
+/*Footer Container*/
+#footer{
+    /*background-color: white;*/
+    width: 960px;
+    height:100px;
+    position: fixed;
+    /*bottom: 0;*/
+    top: 500px;
+ }
+
 a
 {
    color:#ef7145;
@@ -182,7 +183,22 @@ a
    background-color: none;
 }
 
+button .comment { display: none; }
+button:hover .replies { display: none; }
+button:hover .comment { display: inline; }
 
+#body_content .aa {
+    display:inline;
+}
+#body_content:hover .aa{
+    display:none;
+}
+#body_content .bb {
+    display:none;
+}
+#body_content:hover .bb {
+    display:inline;
+}
 
 
 
