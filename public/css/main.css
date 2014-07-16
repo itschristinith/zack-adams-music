@@ -102,17 +102,17 @@ textarea {
 
 body {
     margin: 0;
-    font-family: Helvetica;
+    font-family: 'Special Elite', cursive;
     color: white;
 }
 
 /*Main Container*/
 #mainContainer {
-    width: 960px;
+    width: 80%;
     height: 100%;
     margin:0 auto 0 auto;
     text-align: left;
-    font-size: 24;
+    /*font-size: 1.5em;*/
 }
 
 /*Header Container*/
@@ -120,48 +120,50 @@ body {
     width: 960px;
     height: 50px;
     text-align: center;
-    font-size: 24;
+    /*font-size: 1.5em;*/
 }
 
 /*Body Container*/
 #body_content {
     /*text-align: center;*/
-    font-size: 16px;
+    /*font-size: 1em;*/
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*About Container*/
 #about{
     height: 100%;
     width: 800px;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .buttonContainer{
     position: fixed;
-    left: 480px;
+    left: 33%;
+    top: 18%;
     width: 25%;
     height: 90%;
 }
 
 .buttons{
     display: block;
-    height: 75px;
-    margin: 25px 50px;
+    height: 17.7%;
+    /*margin: 7.91% 15.82%;*/
 }
 
 .soundCloud{
     /*text-align: center;*/
     width: 30%;
-    height: 480px;
+    height: 80%;
     position: fixed;
-    top: 25px;
-    left: 25px;
+    top: 5%;
+    left: 2.08%;
 }
 .left{
-    width: 480px;
+    width: 40%;
     height: 100%;
     position: absolute;
-    top: 25px;
+    top: 5%;
     left: 35%;
     line-height: 1.2;
 }
@@ -169,11 +171,11 @@ body {
 /*Footer Container*/
 #footer{
     /*background-color: white;*/
-    width: 960px;
-    height:100px;
+    width: 100%;
+    height:23.88%;
     position: fixed;
     /*bottom: 0;*/
-    top: 500px;
+    top: 76.66%;
  }
 
 a
