@@ -21,8 +21,13 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.8;
-    background: url(../img/zabg.png) no-repeat center center fixed; 
-    background-size: 100%;
+    /*background: url(../img/zabg.png) no-repeat center center fixed;*/
+    background: url(../img/zabg.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    /*background-size: 100%;*/
     background-color: rgba(33, 46, 48, 100);
 }
 
@@ -175,7 +180,7 @@ body {
     height:23.88%;
     position: fixed;
     /*bottom: 0;*/
-    top: 76.66%;
+    top: 86.66%;
  }
 
 a
