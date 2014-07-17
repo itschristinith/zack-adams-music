@@ -347,7 +347,6 @@ button:hover .comment { display: inline; }
     /* Style adjustments for viewports that meet the condition */
     .soundCloud{
     width: 85%;
-    height: 80%;
     position: absolute;
     top: 5%;
 }
