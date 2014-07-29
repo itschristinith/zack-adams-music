@@ -343,7 +343,7 @@ button:hover .comment { display: inline; }
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-device-width: 35em) {
+@media only screen and (max-device-width: 480px) {
     /* Style adjustments for viewports that meet the condition */
     .soundCloud{
     width: 85%;
@@ -360,6 +360,20 @@ button:hover .comment { display: inline; }
     line-height: 1.2;
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+    #body_content .aa {
+        display:none;
+    }
+    #body_content:hover .aa{
+        display:none;
+    }
+    #body_content .bb {
+        display:inline;
+    }
+    #body_content:hover .bb {
+        display:inline;
+    }
+
 }
 
 @media print,
