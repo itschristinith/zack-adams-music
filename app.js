@@ -40,6 +40,10 @@ app.get("/contact", function(request, response){
 	response.render('contact');
 });
 
+app.get("/pictures", function(request, response){
+	response.render('pictures');
+});
+
 // Start the server
 app.listen(process.env.PORT || 3000);
 console.log('Express started on port 3000');

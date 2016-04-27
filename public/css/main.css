@@ -154,6 +154,31 @@ body {
     height: 17.7%;
     /*margin: 7.91% 15.82%;*/
 }
+
+.release{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 30%;
+    left: 55%;
+}
+
+.release.img {
+    display: block;
+    margin: 0 auto;
+}
+
+.releaseLinks{
+    position:absolute;
+    width: 40%;
+    top:74%;
+    left: 55%;
+}
+
+.link{
+
+    float: left;
+}
 /*-----left aligned version------*/
 
 /*.soundCloud{
@@ -177,8 +202,9 @@ body {
 
 .soundCloud{
     width: 40%;
-    height: 80%;
-    position: fixed;
+    height: 100%;
+    position: absolute;
+    /* to keep players stuck position:fixed;*/
     top: 10%;
     left: 8%;
 }
@@ -195,12 +221,23 @@ body {
 /*Footer Container*/
 #footer{
     /*background-color: white;*/
-    width: 100%;
+    width: 20%;
     height:23.88%;
     position: fixed;
     /*bottom: 0;*/
     top: 86.66%;
  }
+
+.photoContainer{
+    width:60%;
+    margin: 0 auto; 
+}
+
+.photoContainer img {
+   /*Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
 
 a
 {
